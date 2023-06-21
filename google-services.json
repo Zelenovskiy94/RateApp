@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306428536624",
+    "project_id": "ratemycasino-da235",
+    "storage_bucket": "ratemycasino-da235.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306428536624:android:f7d251ff3a046821ee8af5",
+        "android_client_info": {
+          "package_name": "com.softswissseo.ratemycasino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306428536624-51d3f27he12mhc1qnc4nhjpuk8i07r9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT3VTsRLg-gYN8Hngx5I-VRP0H8qRhD7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306428536624-51d3f27he12mhc1qnc4nhjpuk8i07r9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

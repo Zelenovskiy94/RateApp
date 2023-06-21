@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import React, { useState, useCallback } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, ScrollView, View, Linking } from 'react-native';
 import { Navigation } from './components/Navigation';
@@ -7,7 +7,9 @@ import { COLORS } from './vars/colors';
 
 const queryClient = new QueryClient();
 
+
 export default function App() {
+
   return (
     <QueryClientProvider client={queryClient}>
       <Navigation/>

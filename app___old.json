@@ -6,9 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "notification":{
-      "icon":"./assets/icon-notifications.png"
-    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -26,15 +23,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.softswissseo.ratemycasino",
-      "googleServicesFile": "./google-services.json"
+      "package": "com.zelenovskiy94.ratemycasino"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "b7838c94-7625-484b-8455-f25f88e3c2fd"
+        "projectId": "0701cbf5-84a4-4f1f-8f09-354e7f023aef"
       }
     },
     "packagerOpts": {
@@ -54,6 +50,6 @@
         "svgx"
       ]
     },
-    "owner": "softswissseo"
+    "owner": "zelenovskiy94"
   }
 }

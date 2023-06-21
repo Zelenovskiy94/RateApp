@@ -1,6 +1,6 @@
 import axios from "axios";
 import React from "react";
-import { useWindowDimensions } from "react-native";
+import { StyleSheet, useWindowDimensions } from "react-native";
 import { Text, View, Image, ScrollView } from "react-native";
 import RenderHTML from "react-native-render-html";
 import styled from "styled-components";
@@ -28,6 +28,7 @@ const PostDate = styled.Text`
 const PostImage = styled.Image`
     height: 200px;
     border-radius: 6px;
+    margin-bottom: 15px;
 `;
 
 export const ArticleScreen = ({ route, navigation, setPostData, data }) => {
@@ -125,3 +126,15 @@ export const ArticleScreen = ({ route, navigation, setPostData, data }) => {
         
     )
 }
+
+// const styles = StyleSheet.create({
+//   articleImageView: {
+//     width: '100%',
+//     height: 300,
+//   },
+//   articleImage: {
+//     resizeMode: 'cover',
+//     width: '100%',
+//     height: '100%'
+//   }
+// })

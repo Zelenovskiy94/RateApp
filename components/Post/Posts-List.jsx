@@ -1,5 +1,5 @@
 import { FlashList } from "@shopify/flash-list";
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useRef, useEffect } from "react";
 import { ActivityIndicator, RefreshControl, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import useFetchPosts from "../../hooks/useFetchPosts";
@@ -7,6 +7,9 @@ import { PostCard } from "./Post-Card";
 import TEXT_CONTENT from "../../vars/text";
 import { COLORS } from "../../vars/colors";
 import { NotFound } from "./NotFound";
+
+
+
 
 const PostsList = ({navigation, screenProps}) => {
 
